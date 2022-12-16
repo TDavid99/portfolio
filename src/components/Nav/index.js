@@ -13,8 +13,8 @@ function Nav(props) {
   return (
     <Navbar collapseOnSelect expands="lg" bg="light" fixed="top" id="Nav">
       <Container>
-        <Navbar.Brand herf="/portfolio/" className="navbar-brand">
-          {'/portfolio'}
+        <Navbar.Brand herf="/projects/" className="navbar-brand">
+          {/* {'/projects/'} */}
           David Townsend
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

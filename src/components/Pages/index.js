@@ -8,8 +8,8 @@ function Pages({currentPage}) {
         switch (currentPage.name) {
             case 'about Me' :
                 return <About Me/>
-                case 'portfolio':
-                    return <Portfolio/>
+                case 'projects':
+                    return <Projects/>
                     case 'contact':
                         return <Contact/>
                         default:
@@ -23,10 +23,10 @@ function Pages({currentPage}) {
 
 
 
-function Pages() {
-    return (
-        <div> This is pages...</div>
+// function Pages() {
+//     return (
+//         <div> This is pages...</div>
         
-        )
-    }
+//         )
+//     }
     export default Pages;
