@@ -4,13 +4,13 @@ import { capitalizeFirstLetter } from "../../assets/utils/helpers";
 function About() {
   const [portfolioPages] = useState([
     {
-      name: "about Me",
+      name: "How about me",
     },
   ]);
 
   const [currentPage] = useState(portfolioPages[0]);
   return (
-    <div className="masthead text-center text-dark d-flex">
+    <div className="masthead text-center text-white d-flex bg-dark">
       <div className="container my-auto">
         <div className="row">
           <div className="col-lg-10 mx-auto">
@@ -21,7 +21,7 @@ function About() {
               Before start my full stack web journey I was about in construction
               building sandhills community college newest addition "Foundation
               Hall". Having the discipline to learn several frontend and backend
-              formats and styles has change the way I think and manage my time.
+              applications and languages has change the way I think and manage my time.
             </p>
           </div>
         </div>

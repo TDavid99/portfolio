@@ -52,7 +52,7 @@ function Contact() {
             <div className='container'>
                 <div className='row'>
                     <div className='col-lg-10 mx-auto mb-4 mt-5'>
-                        <h1 className='text-center text-black'>{capitalizeFirstLetter(currentPage.name)}</h1>
+                        <h1 className='text-center text-light'>{capitalizeFirstLetter(currentPage.name)}</h1>
                         <hr className='light my-4'/>
                             <form id='contact-form' onSubmit={handleSubmit} className='mb-5'>
                                 <div>

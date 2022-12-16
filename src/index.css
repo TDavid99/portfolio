@@ -5,30 +5,30 @@ html {
 }
 
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 hr {
   max-width: 50px;
   border-width: 3px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 
 a {
-  color: goldenrod;
+  color: tan;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: goldenrod;
+  color: rgb(32, 113, 218);
 }
 
 h1,
 h2,
 h3{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -41,8 +41,29 @@ section {
 }
 
 /* Nav Bar */
-#Nav {
-  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+#Navigation {
+  border-bottom: 1px solid rgba(92, 108, 123, 0.1);
+  background-color: rgb(124, 150, 198);
+  font-family: 
+'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Nav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(70, 119, 225);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Nav .navbar-brand:focus,
+#Nav .navbar-brand:hover {
+  color: rgb(103, 132, 214);
+}
+
+#Nav .navbar-nav>li.nav-link,
+#Nav .navbar-nav>li.nav-link:focus {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #2b7ed0;
 }
