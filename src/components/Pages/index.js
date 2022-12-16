@@ -15,18 +15,18 @@ function Pages({currentPage}) {
                         default:
                             return <About/> 
         }
-    };
+    }
     return (
-        showpage()
+       <div>{showpage()}</div>
     );
 }
 
 
 
-function Pages() {
-    return (
-        <div> This is pages...</div>
+// function pages() {
+//     return (
+//         <div> This is pages...</div>
         
-        )
-    }
+        // )
+    // }
     export default Pages;

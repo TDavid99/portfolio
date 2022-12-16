@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
       <Header>
-        <Nav portfolioPages={portfolioPages} setCurrentPage={setCurrentPage} currentPage={currentPage}></Nav>
+        <Navigation portfolioPages={portfolioPages} setCurrentPage={setCurrentPage} currentPage={currentPage}></Navigation>
       </Header>
       <main>
         <Pages currentPage={currentPage}></Pages>

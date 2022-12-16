@@ -29,7 +29,8 @@ function Navigation(props) {
                   currentPage.name === Page.name && "active"
                 }`}
                 key={Page.name}
-              ></li>
+              ><span onClick={()=> setCurrentPage(Page)}>{capitalizeFirstLetter(Page.name)}</span>
+              </li>
             ))}
           </ul>
         </Navbar.Collapse>
@@ -38,5 +39,4 @@ function Navigation(props) {
   );
 }
 
-
-export default Navigation; 
+export default Navigation;
