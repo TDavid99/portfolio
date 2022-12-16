@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import { capitalizeFirstLetter } from "../../assets/utils/helpers";
 import Navbar from "react-bootstrap/Navbar";
 import { Container } from "react-bootstrap";
 

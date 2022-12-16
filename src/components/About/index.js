@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import { capitalizeFirstLetter } from "../../assets/utils/helpers";
 
 function About() {
   const [portfolioPages] = useState([

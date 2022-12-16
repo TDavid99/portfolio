@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
-import { validateEmail } from '../../utils/helpers';
+import { capitalizeFirstLetter } from '../../assets/utils/helpers';
+import { validateEmail } from '../../assets/utils/helpers';
 
 function Contact() {
     const [portfolioPages] = useState([
