@@ -48,5 +48,39 @@ function Contact() {
     };
 
     return (
-        
-    )
+        <section className='bg-dark'>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-lg-10 mx-auto mb-4 mt-5'>
+                        <h1 className='text-center text-black'>{capitalizeFirstLetter(currentPage.name)}</h1>
+                        <hr className='light my-4'/>
+                            <form id='contact-form' onSubmit={handleSubmit} className='mb-5'>
+                                <div>
+                                    <label className='text-white' htmlFor='name'>name:</label>
+                                    <input className='form-control' placeholder='name' type='text' name='name' defaultValue={name} onBlur={handleChange}/>
+                                </div>
+                                <div>
+                                <label className='text-white' htmlFor='email'>Email address:</label>
+                                <input className='form-control' placeholder='Email' type='email' name='email' defaultValue={email} onBlur={handleChange}/>
+                            </div>
+                            <div>
+                                <label className='text-white' htmlFor='message'>Message:</label>
+                                <textarea className='form-control' placeholder='Message' name='message' rows='5' defaultValue={message} onBlur={handleChange} />
+                            </div>
+                            {errorMessage && (
+                                <div>
+                                    <p className='error-text'>{errorMessage}</p>
+                                </div>
+                            )}
+                            <div className='text-center'>
+                                <button type='submit' className='submit-btn btn-xl'>Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        );
+        }
+export default Contact;
+                               

@@ -10,3 +10,6 @@ function Portfolio() {
     const [currentPage] = useState(portfolioPages[0]);
     const [project] = useState
     }
+{
+    
+}
