@@ -3,7 +3,7 @@ import { capitalizeFirstLetter } from "../../assets/utils/helpers";
 import Navbar from "react-bootstrap/Navbar";
 import { Container } from "react-bootstrap";
 
-function Nav(props) {
+function Navigation(props) {
   const { portfolioPages = [], setCurrentPage, currentPage } = props;
 
   useEffect(() => {
@@ -39,4 +39,4 @@ function Nav(props) {
 }
 
 
-export default Nav; 
+export default Navigation; 

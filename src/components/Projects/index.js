@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { capitalizeFirstLetter } from '../../assets/utils/helpers';
 
-function Portfolio() {
+function Projects() {
     const [portfolioPages] = useState([
         {
-            name: 'portfolio'
+            name: 'projects'
         }
     ]);
     const [currentPage] = useState(portfolioPages[0]);

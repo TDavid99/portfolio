@@ -1,6 +1,6 @@
 import React from 'react';
 import About from '../About';
-import Portfolio from '../Projects';
+import Projects from '../Projects';
 import Contact from '../Contact';
 
 function Pages({currentPage}) {
@@ -23,10 +23,10 @@ function Pages({currentPage}) {
 
 
 
-// function Pages() {
-//     return (
-//         <div> This is pages...</div>
+function Pages() {
+    return (
+        <div> This is pages...</div>
         
-//         )
-//     }
+        )
+    }
     export default Pages;
