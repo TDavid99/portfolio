@@ -1,9 +1,9 @@
-import React, from 'react';
-import wishagram from ;
-import tech from ;
-import password from ;
-import weather from   ;
-import notes from  ;
+import React from 'react';
+import wishagram from './../../assets/img/apps/screenshot(429).png';
+import tech from './../../assets/img/apps/screenshot(428).png'; 
+import password from './../../assets/img/apps/screenshot(427).png';
+import weather from './../../assets/img/apps/screenshot(430).png' ;
+import notes from './../../assets/img/apps/screenshot().png';
 
 
 const Projects =() => {
@@ -45,12 +45,17 @@ const Projects =() => {
           },
           {
             id: 6,
-            src: wish,
-            Name: "Wishagram",
+            src: wishagram,
+            Name: 'Wishagram',
             repo: 'https://github.com/pseudoDjnn/Wishagram',
             deploy: 'https://glacial-mesa-81435.herokuapp.com/',
           },
         ];
+        return (
+            <div>
+                
+            </div>
+        )
     );
 }
     
