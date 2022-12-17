@@ -26,10 +26,10 @@ function About() {
           </div>
         </div>
       </div>
-    </div>,
     <figure className = 'profile-image'>
-    <img src = {require('../../assets/img/')} alt = '' />
-</figure>
+    {/* <img src = {require('../../assets/img/apps/profilepic.JPG')} alt = 'david Townsend' /> */}
+    </figure>
+    </div>
   );
 }
 

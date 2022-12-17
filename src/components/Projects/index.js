@@ -1,10 +1,9 @@
 import React from 'react';
-import wishagram from './../../assets/img/apps/screenshot(429).png';
-import tech from './../../assets/img/apps/screenshot(428).png'; 
-import password from './../../assets/img/apps/screenshot(427).png';
-import weather from './../../assets/img/apps/screenshot(430).png' ;
-import notes from './../../assets/img/apps/notetaker.png';
-
+import wishagram from '../../assets/img/apps/Screenshot (429).png';
+import tech from '../../assets/img/apps/Screenshot (428).png'; 
+import password from '../../assets/img/apps/Screenshot (427).png';
+import weather from '../../assets/img/apps/Screenshot (430).png' ;
+import notes from '../../assets/img/apps/notetaker.png';
 
 const Projects =() => {
     const portfolioPages = [
