@@ -51,8 +51,9 @@ const Projects =() => {
             deploy: 'https://glacial-mesa-81435.herokuapp.com/',
           },
         ];
-    
+    );
+}
     
 
 
-export 
+export default Projects; 
