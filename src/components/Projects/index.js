@@ -3,21 +3,21 @@ import wishagram from './../../assets/img/apps/screenshot(429).png';
 import tech from './../../assets/img/apps/screenshot(428).png'; 
 import password from './../../assets/img/apps/screenshot(427).png';
 import weather from './../../assets/img/apps/screenshot(430).png' ;
-import notes from './../../assets/img/apps/screenshot().png';
+import notes from './../../assets/img/apps/notetaker.png';
 
 
 const Projects =() => {
     const portfolioPages = [
         {
             id: 1,
-            src: notes,
+            source: notes,
             name: 'Note Taker',
-            link: 'https://github.com/TDavid99/note-taker',
-            deploy: ' https://note-takerlol.herokuapp.com/',
+            repo: 'https://github.com/TDavid99/note-taker',
+            link: ' https://note-takerlol.herokuapp.com/',
           },
           {
             id: 2,
-            src: password,
+            source: password,
             name: 'Password Generator',
             repo: 'https://github.com/TDavid99/password-generator',
             link: 'https://github.com/TDavid99/password-generator#httpstdavid99githubiopassword-generator',
@@ -27,11 +27,11 @@ const Projects =() => {
             source: weather,
             name: 'Weather on the go',
             repo: 'https://github.com/CalebFunderburk/On-The-Go',
-            deploy: 'https://calebfunderburk.github.io/On-The-Go/',
+            link: 'https://calebfunderburk.github.io/On-The-Go/',
           },
           {
             id: 4,
-            src: '',
+            source: '',
             name: '',
             repo: '',
             link: '',
@@ -45,20 +45,57 @@ const Projects =() => {
           },
           {
             id: 6,
-            src: wishagram,
-            Name: 'Wishagram',
+            source: wishagram,
+            name: 'Wishagram',
             repo: 'https://github.com/pseudoDjnn/Wishagram',
-            deploy: 'https://glacial-mesa-81435.herokuapp.com/',
+            link: 'https://glacial-mesa-81435.herokuapp.com/',
           },
         ];
         return (
-            <div>
-                
+            <div
+            name="portfolio"
+            className="bg-gradient-from-neutral-800 via-zinc-700 to-neutral-900 w-full md:h-screen"
+          >
+            <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+              <div className="pb-8">
+                <p className="text-4xl font-bold inline border-b-4">
+                  Portfolio Projects
+                </p>
+                <p className="py-8">
+                 projects for my 2022 portfolio.
+                </p>
+              </div>
+      
+              <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+                {portfolioPages.map(({ id, source, name, link, repo }) => (
+                  <div key={id} className="shadow-md shadow-slate-600 rounded-lg">
+                    <img
+                      src={source}
+                      alt="demo"
+                      className="rounded-md duration-700 hover:scale-105"
+                    />
+                    <div className="flex items-center justify-center">
+                      <a
+                        href={repo}
+                        className="w-1/2 px-6 py-2 m-4 duration-300 hover:scale-105"
+                      >
+                        {name}
+                      </a>
+                      <a
+                        href={link}
+                        className="w-1/2 px-6 py-2 m-4 duration-300 hover:scale-105"
+                      >
+                        Deployment
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-        )
-    );
-}
-    
+          </div>
+        );
+      };
+                
 
 
 export default Projects; 
