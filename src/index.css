@@ -68,14 +68,14 @@ section {
   color: #2b7ed0;
 }
 * Portfolio Pages */
-.project-box {
+.project-container {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
 }
 
-.project-box .project-box-caption {
+.project-container .project-container-text.project-contanier-text-topic {
   position: absolute;
   bottom: 0;
   display: block;
@@ -84,13 +84,13 @@ section {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: goldenrod;
+  background: rgb(28, 106, 178);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
-.project-box .project-box-caption .project-box-caption-content {
+.project-container .project-container-text.project-contanier-text-topic {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -98,27 +98,27 @@ section {
   text-align: center;
 }
 
-.project-box .project-box-caption .project-box-caption-content .project-category,
-.project-box .project-box-caption .project-box-caption-content .project-name {
+.project-container .project-container-text .project-container-text .project-category,
+.project-container .project-container-text .project-container-text-topic .project-name {
   padding: 0 15px;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.project-box .project-box-caption .project-box-caption-content .project-category {
+.project-container .project-container-text .project-container-text-tpoic .project-category {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.project-box .project-box-caption .project-box-caption-content .project-name {
+.project-container .project-container-text .project-container-text-tpoic .project-name {
   font-size: 18px;
 }
 
-.project-box:hover .project-box-caption {
+.project-container:hover .project-container-caption {
   opacity: 1;
 }
 
-.project-box:focus {
+.project-container:focus {
   outline: none;
 }
 
@@ -126,15 +126,15 @@ section {
   padding-top: 95px;
 }
 
-.project-box-caption-content {
+.project-container-text-topic {
   line-height: 2rem;
 }
 
-.project-box-caption-content a {
+.project-container-text-topic a {
   color: #fff;
 }
 
-.project-box-caption-content a:hover {
+.project-container-text-topic a:hover {
   color: lightgrey;
   text-decoration: none;
 }

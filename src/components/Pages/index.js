@@ -8,7 +8,7 @@ function Pages({currentPage}) {
         switch (currentPage.name) {
             case 'about Me' :
                 return <About Me/>
-                case 'projects':
+                case 'portfolio':
                     return <Projects/>
                     case 'contact':
                         return <Contact/>

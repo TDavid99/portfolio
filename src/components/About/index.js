@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { capitalizeFirstLetter } from "../../assets/utils/helpers";
+// import Profilepic from "../../assets/img/apps/profilepic.JPG"
 
 function About() {
   const [portfolioPages] = useState([
@@ -27,7 +28,7 @@ function About() {
         </div>
       </div>
     <figure className = 'profile-image'>
-    {/* <img src = {require('../../assets/img/apps/profilepic.JPG')} alt = 'david Townsend' /> */}
+    {/* <img src = {Profilepic('../../assets/img/apps/profilepic.JPG')} alt = 'david Townsend' /> */}
     </figure>
     </div>
   );
