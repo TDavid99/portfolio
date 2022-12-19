@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { capitalizeFirstLetter } from "../../assets/utils/helpers";
-import resume from '../../assets/img/';
 
 function Resume () {
     const [portfolioPages] = useState([
@@ -17,7 +16,7 @@ function Resume () {
                         <h1 className="text-center mt-5">{capitalizeFirstLetter(currentPage.name)}</h1>
                         <hr className="light my-4"/>
                         <p className="text-center">
-                            Upload my <a href={resume} className='text-faded dark-link' download>resume</a>
+                            Upload my <a href="https://my.indeed.com/p/davidt-p68cxbh" className='text-faded dark-link' download>resume</a>
                         </p>
                     </div>
                 </div>
