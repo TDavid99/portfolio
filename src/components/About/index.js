@@ -12,7 +12,7 @@ function About() {
 
   const [currentPage] = useState(portfolioPages[0]);
   return (
-    <div className="masthead text-center text-primary d-flex bg-light">
+    <div className="masthead text-center text-primary d-flex bg-dark">
       <div className="container my-auto">
         <div className="row">
           <div className="col-lg-10 mx-auto">
@@ -30,7 +30,7 @@ function About() {
           </div>
         </div>
       </div>
-    <figure className = 'profile-image'>
+    <figure className = 'profile-image '>
     <img src = {Profilepic} alt = 'david Townsend'/>
     </figure>
 

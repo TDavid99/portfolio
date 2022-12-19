@@ -69,7 +69,7 @@ function Projects() {
         <hr className="my-3" />
         <div className="row">
           {projects.map((item, i) => (
-            <div className="col-lg-4 col-sm-6" key={1}>
+            <div className="col-lg-4 col-sm-6 bg-dark" key={1}>
               <div className="project-container">
                 <img
                   src={item.image}

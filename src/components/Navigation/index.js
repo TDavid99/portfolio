@@ -11,7 +11,7 @@ function Navigation(props) {
   }, [currentPage]);
 
   return (
-    <Navbar collapseOnSelect expands="lg" bg="light" fixed="top" id="Nav">
+    <Navbar collapseOnSelect expands="lg" bg="dark" fixed="top" id="Nav">
       <Container>
         <Navbar.Brand herf="/projects/" className="navbar-brand">
           {/* {'/projects/'} */}
