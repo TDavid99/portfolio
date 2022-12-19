@@ -8,7 +8,7 @@ function Header(props) {
     );
 }
 
-// export default Header;
+
 // import Navigation from "../Navigation";
 // import Navbar from "react-bootstrap/Navbar";
 // import Container from "react-bootstrap/Container";
@@ -30,6 +30,6 @@ function Header(props) {
 //       </Navbar>
 //     </Container>
 //   );
-// };
+// }
 
 export default Header;

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { capitalizeFirstLetter } from '../../assets/utils/helpers';
 import { validateEmail } from '../../assets/utils/helpers';
+import { FaGithub } from "react-icons/fa";
+// import { IconContext } from 'react-icons/lib';
 
 function Contact() {
     const [portfolioPages] = useState([
@@ -46,22 +48,21 @@ function Contact() {
             console.log('Handle Form', formState);
         }
     };
-
     return (
         <section className='bg-dark'>
             <div className='container'>
                 <div className='row'>
                     <div className='col-lg-10 mx-auto mb-4 mt-5'>
                         <h1 className='text-center text-light'>{capitalizeFirstLetter(currentPage.name)}</h1>
-                        <hr className='light my-4'/>
-                            <form id='contact-form' onSubmit={handleSubmit} className='mb-5'>
-                                <div>
-                                    <label className='text-white' htmlFor='name'>name:</label>
-                                    <input className='form-control' placeholder='name' type='text' name='name' defaultValue={name} onBlur={handleChange}/>
-                                </div>
-                                <div>
+                        <hr className='light my-4' />
+                        <form id='contact-form' onSubmit={handleSubmit} className='mb-5'>
+                            <div>
+                                <label className='text-white' htmlFor='name'>name:</label>
+                                <input className='form-control' placeholder='name' type='text' name='name' defaultValue={name} onBlur={handleChange} />
+                            </div>
+                            <div>
                                 <label className='text-white' htmlFor='email'>Email address:</label>
-                                <input className='form-control' placeholder='Email' type='email' name='email' defaultValue={email} onBlur={handleChange}/>
+                                <input className='form-control' placeholder='Email' type='email' name='email' defaultValue={email} onBlur={handleChange} />
                             </div>
                             <div>
                                 <label className='text-white' htmlFor='message'>Message:</label>
@@ -80,7 +81,10 @@ function Contact() {
                 </div>
             </div>
         </section>
-        );
-        }
+            
+
+    );
+
+                            }    
 export default Contact;
                                

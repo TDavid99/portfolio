@@ -13,11 +13,11 @@ function Resume () {
         <section className="bg-dark">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-10 mx-auto text-light mb-4">
+                    <div className="col-lg-10 mx-auto text-dark mb-4">
                         <h1 className="text-center mt-5">{capitalizeFirstLetter(currentPage.name)}</h1>
                         <hr className="light my-4"/>
                         <p className="text-center">
-                            Upload my <a href={resume} className='text-faded white-link' download>resume</a>
+                            Upload my <a href={resume} className='text-faded dark-link' download>resume</a>
                         </p>
                     </div>
                 </div>

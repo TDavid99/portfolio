@@ -4,12 +4,15 @@ import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import Pages from './components/Pages';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "../src/index.css";
+
 
 function App() {
   const [portfolioPages] = useState([
     {name: "about Me"},
     {name: "portfolio"},
     {name: "contact"},
+    {name: "Resume"},
   ]);
 
   const [currentPage, setCurrentPage] = useState(portfolioPages[0]);

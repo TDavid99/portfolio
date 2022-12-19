@@ -41,7 +41,7 @@ section {
 }
 
 /* Nav Bar */
-#Navigation {
+#Nav {
   border-bottom: 1px solid rgba(92, 108, 123, 0.1);
   background-color: rgb(124, 150, 198);
   font-family: 
@@ -56,7 +56,7 @@ section {
 
 #Nav .navbar-brand:focus,
 #Nav .navbar-brand:hover {
-  color: rgb(103, 132, 214);
+  color: rgb(35, 24, 159);
 }
 
 #Nav .navbar-nav>li.nav-link,
@@ -135,6 +135,7 @@ section {
 }
 
 .project-container-text-topic a:hover {
-  color: lightgrey;
+  color: rgb(65, 121, 195);
   text-decoration: none;
 }
+
