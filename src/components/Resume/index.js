@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { capitalizeFirstLetter } from "../../assets/utils/helpers";
 
+
 function Resume () {
     const [portfolioPages] = useState([
         {
@@ -12,7 +13,7 @@ function Resume () {
         <section className="bg-dark">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-10 mx-auto text-dark mb-4">
+                    <div className="col-lg-10 mx-auto text-light mb-4">
                         <h1 className="text-center mt-5">{capitalizeFirstLetter(currentPage.name)}</h1>
                         <hr className="light my-4"/>
                         <p className="text-center">
